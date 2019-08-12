@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>2º HackaSiemens - Klabin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--
+    =========================================================
+    * ArchitectUI HTML Theme Dashboard - v1.0.0
+    =========================================================
+    * Product Page: https://dashboardpack.com
+    * Copyright 2019 DashboardPack (https://dashboardpack.com)
+    * Licensed under MIT (https://github.com/DashboardPack/architectui-html-theme-free/blob/master/LICENSE)
+    =========================================================
+    * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    -->
+    <link href="styles/main.css" rel="stylesheet"></head>
+<body>
+<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+    <div class="app-header header-shadow">
+        <div class="app-header__logo">
+            <div class="logo-src"></div>
+            <div class="header__pane ml-auto">
+                <div>
+                    <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="app-header__mobile-menu">
+            <div>
+                <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                </button>
+            </div>
+        </div>
+        <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+        </div>
+        <div class="app-header__content">
+            <div class="app-header-left">
+                <div class="search-wrapper">
+                    <div class="input-holder">
+                        <input type="text" class="search-input" placeholder="Type to search">
+                        <button class="search-icon"><span></span></button>
+                    </div>
+                    <button class="close"></button>
+                </div>
+            </div>
+            <div class="app-header-right">
+                <div class="header-btn-lg pr-0">
+                    <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                            <div class="widget-content-left">
+                                <div class="d-inline-block dropdown">
+                                    <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-light">
+											<span class="btn-icon-wrapper pr-2 opacity-7">
+												<i class="fa pe-7s-clock fa-w-20"></i>
+											</span>
+                                        Dias no Futuro
+                                        <span class="badge badge-pill badge-light">5</span>
+                                    </button>
+                                    <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-inbox"></i>
+                                                    <span>
+															2
+														</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-book"></i>
+                                                    <span>
+															3
+														</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-picture"></i>
+                                                    <span>
+															5
+														</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a disabled href="javascript:void(0);" class="nav-link disabled">
+                                                    <i class="nav-link-icon lnr-file-empty"></i>
+                                                    <span>
+															8
+														</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-main">
+        <div class="app-sidebar sidebar-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                        <span>
+                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                <span class="btn-icon-wrapper">
+                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                </span>
+                            </button>
+                        </span>
+            </div>    <div class="scrollbar-sidebar">
+            <div class="app-sidebar__inner">
+                <ul class="vertical-nav-menu">
+                    <li class="app-sidebar__heading">Variáveis</li>
+
+                    <li>
+                        <a href="#">
+                            <i class="metismenu-icon pe-7s-play"></i>
+                            Geral
+                            <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                        </a>
+                        <ul>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1012JT</a></li>
+                            <li class="mm-active"><a href="index" class="mm-active"><i class="metismenu-icon"></i>393_PRESSAO_CALANDRA </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1012_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1013JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1013_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1015JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1015_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1016JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1016_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1013JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1013_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1010JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1010_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1011JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1011_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1014JT</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391M1014_CONS_ESPEC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2195A_AO01</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2195B_AO01</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391_FLUXOTOTAL_CALC_CX_ENTRADA_LB</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392VJ_VT_BASE </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2063A_AO01 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2063B_AO01 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391_FLUXOTOTAL_CALC_CX_ENTRADA_LM</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392VJVT_MEIO </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2061A_AO01 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392ZT2061B_AO01 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>391_FLUXOTOTAL_CALC_CX_ENTRADA_LC</a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392VJ_VT_COB </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392HC5620_SP </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT5433kN </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT5499kN </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT5546A </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2833 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2832 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2831 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2834 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2835 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2836 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2837 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2838 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2839 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2840 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2841 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2842 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2843 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2848 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2849 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2850 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2851 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2852 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2853 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2824 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2825 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2826 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2827 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2828 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2829 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2830 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2819 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2820 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2821 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2822 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2823 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2801 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2802 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2803 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2804 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2805 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PT2806 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>207AT772 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>\\MASRV011\392VEL_TELA </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO1 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO2_INF </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO2_SUP </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO3 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO4 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO5 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392BIAS_GRUPO6 </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4028_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4033_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4032_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4038_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4040_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4042_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4044_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4046_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4048_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PIC4001_MV </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="metismenu-icon pe-7s-diamond"></i>
+                            Tipo de Fibra
+                            <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                        </a>
+                        <ul>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PCT_REFUGO_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PCT_CTMP_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PCT_K3_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PCT_K2_MV </a></li>
+                            <li><a href="index"><i class="metismenu-icon"></i>392PCT_K2_PB_MV </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="app-main__outer">
+            <div class="app-main__inner">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="mb-3 card">
+                            <div class="card-header-tab card-header-tab-animation card-header">
+                                <div class="card-header-title">
+                                    <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                    Variação Preditiva
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="tabs-eg-77">
+                                        <div class="card mb-3 widget-chart widget-chart2 text-left w-100">
+                                            <div class="widget-chat-wrapper-outer">
+                                                <div class="widget-chart-wrapper widget-chart-wrapper-lg opacity-10 m-0">
+                                                    <canvas id="chart-horiz-bar"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="mb-3 card">
+                            <div class="card-header-tab card-header">
+                                <div class="card-header-title">
+                                    <i class="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
+                                    Visão Cruzada
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane fade active show" id="tab-eg-55">
+                                    <div class="widget-chart p-3">
+                                        <div style="height: 350px">
+                                            <canvas id="line-chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/main.js"></script></body>
+</html>
